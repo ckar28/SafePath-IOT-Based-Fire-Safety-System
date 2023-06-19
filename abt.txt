@@ -1,0 +1,5 @@
+i want to make a project on safest path out of building  in case of fire. My idea is to have a temperature and a smoke sensor in each corridors,stairs. Now the plan is that wrt to this data  , I will assign a danger level(weight), to each path. Now i want this safest path out of the building from each path based on dijkstra to be updated on cloud, so that a person in the building can connect to it and lookup for the safest path out from their location. Suggest a tech stack and architecture of this project will work
+
+
+------------------------------
+ I will already be having a graph of the paths in the building. Bass sensor data se I will update the danger levels.wt of each egde

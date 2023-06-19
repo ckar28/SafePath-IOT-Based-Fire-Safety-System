@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Safest Paths</title>
+</head>
+<body>
+    <h1>Safest Paths</h1>
+    
+    {% if safest_paths %}
+        <ul>
+        {% for node, paths in safest_paths.items() %}
+            <li>
+                Node: {{ node }}
+                <ul>
+                    {% for path in paths %}
+                        <li>{{ path }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No safest paths found.</p>
+    {% endif %}
+</body>
+</html>
