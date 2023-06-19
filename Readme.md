@@ -15,9 +15,6 @@ SafePath is built using the following technologies:
 
 ## Features
 
-
-## Features
-
 ### Integration of temperature and smoke sensors
 SafePath integrates temperature and smoke sensors placed throughout the building to continuously monitor the environment. The sensors gather real-time data on temperature levels and smoke concentrations, which are essential indicators of potential fire hazards.
 
